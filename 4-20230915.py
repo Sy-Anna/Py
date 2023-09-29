@@ -83,4 +83,36 @@ print(" ")
 #tti_k = (tti1, tti2, tti3)
 #print(f"A legelhízottabb személy tti mértéke {max(tti_k)}")
 
+print(" ")
+print("24. feladat")
+print(" ")
 
+havi_fogy = float(input("Ajda meg a havi átlagos villanyszámlájának összegét: "))
+eves_fogy = havi_fogy*12
+print(f"Az éves energiaköltsége ezek alapján kb. {eves_fogy} Ft.")
+eves_villany = eves_fogy/39
+print(f"Az éves energiafelhasználása pedig kb. {eves_villany} kWh.")
+napelem_naponta = 310*24/1000
+napelem_eves = napelem_naponta*360
+szukseges_napelem = math.floor(eves_villany/napelem_eves)
+print(f"Ha az éves fogyasztásának kb. 85%-át szeretné kitermelni napelemekkel, {szukseges_napelem} napelemre van szükség.")
+teto = szukseges_napelem*1.7
+print(f"Ennyi napelemhez minimum {teto} nm2 tetőfelületre van szükség.")
+
+print(" ")
+print("25. feladat")
+print(" ")
+
+ingatlan_ertek = float(input("Adja meg a vásárolni kívánt ingatlan értékét: "))
+ügynök = ingatlan_ertek*0.0275
+ügyvéd = ingatlan_ertek*0.015
+illetek = ingatlan_ertek*0.04
+energetikai = 40000
+földhivatal = 6600
+print(f"Ha az ingatlan értéke {ingatlan_ertek} Ft, akkor")
+print(f"- {ügynök} Ft az ingatlan ügynök,")
+print(f"- {ügyvéd} Ft az ügyvéd,")
+print(f"- {illetek} Ft az ingatlan illeték,")
+print(f"- {energetikai} Ft az energetikai tanusítvány,")
+print(f"- {földhivatal} Ft a tulajdoni lap,")
+print(f"És így az ingatlan teljes összege a felmerülő díajakkal együtt {ingatlan_ertek+ügynök+ügyvéd+illetek+energetikai+földhivatal} Ft.")
