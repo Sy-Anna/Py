@@ -1,0 +1,9 @@
+class Hiresno:
+    def __init__(self, nev, nemzetiseg, foglalkozas):
+        self.nev = nev
+        self.nemzetiseg = nemzetiseg
+        self.foglalkozas = foglalkozas
+    
+
+def __str__(self):
+    return "{self.nev:30} | {self.nemzetiseg:10} | {self.foglalkozas}"
