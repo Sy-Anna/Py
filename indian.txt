@@ -1,0 +1,22 @@
+Őrült Ló,f,20,tomahawk
+Cochise,f,32,tomahawk
+Fekete Bivaly,f,12,dob
+Geronimo,f,67,békepipa
+Könnyű Felhő,n,24,íj
+Wahtavah,n,31,mokaszin
+Bátor Sólyom,f,19,békepipa
+Ravasz Menyét,f,12,íj
+Vörös Felhő,f,38,tűzszerszám
+Meleg Eső,n,17,tomahawk
+Ülő Bika,f,72,tomahawk
+Égi Párduc,f,44,íj
+Fekete Sólyom,f,51,mokaszin
+Pocahontas,n,17,mokaszin
+Sárga Virág,n,12,tűzszerszám
+Mérges Darázs,f,33,tomahawk
+Vörös Csillag,n,45,békepipa
+Eső Szavú,n,11,mokaszin
+Lyukas Hordó,f,63,íj
+Hangos Talpú,f,11,mokaszin
+Vörös Róka,f,29,dob
+Lassú Bivaly,f,22,békepipa
